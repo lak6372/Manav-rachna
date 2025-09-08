@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Example</title>
+</head>
+<body>
+
+
+
+<table border="1" cellpadding="20" cellspacing="0">
+  <caption>life expectancy by current age</caption>
+    <tr>
+        <th colspan="2">65</th>
+        <th colspan="2">40</th>
+        <th colspan="2">20</th>
+    </tr>
+  
+    <tr>
+        <td>MEN</td>
+        <td>WOMEN</td>
+        <td>MEN</td>
+        <td>WOMEN</td>
+        <td>MEN</td>
+        <td>WOMEN</td>
+    </tr>
+    <tr align = "center">
+        <td>82</td>
+        <td>85</td>
+        <td>45</td>
+        <td>71</td>
+        <td>78</td>
+        <td>98</td>
+    </tr>
+    
+</table>
+
+</body>
+</html>
