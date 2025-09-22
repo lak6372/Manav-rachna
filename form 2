@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Personal Information</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend><b>User Personal Information</b></legend>
+
+            <label>Enter your full name:</label><br>
+            <input type="text" name="fullname"><br><br>
+
+            <label>Enter your email:</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Enter your password:</label><br>
+            <input type="password" name="password"><br><br>
+
+            <label>Confirm your password:</label><br>
+            <input type="password" name="confirmpassword"><br><br>
+
+            <label>Enter your gender:</label><br>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="others"> Others<br><br>
+
+            <label>Select one International Language you know:</label><br>
+            <select name="language">
+                <option value="english">English</option>
+                <option value="hindi">hindi</option>
+                </select><br><br>
+            
+            <label>enter your date of brith</label><br>
+            <input type="date" name="DOB"><br><br>
+            
+            <label>Enter your Address:</label><br>
+            <textarea name="address" rows="4" cols="30"></textarea><br><br>       
+            <label>Please upload your photograph:</label><br>
+            <input type="file" name="photo"><br><br>
+            <label>Duration of Undergraduate Degree:</label><br>
+            <input type="range" name="duration" min="1" max="5">
+            <span>Years</span><br><br>
+
+            <input type="submit" value="Submit"><br>
+            
+            <a href="www.google.com" target="_blank">google homepage</a>
+            
+            
+
+    </fieldset>
+    </form>
+
+</body>
+</html>
