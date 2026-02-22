@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float t,c;
+    printf("enter temperature");
+    scanf("%f",&t);
+    c= 0.5*(t-32);
+    printf("%f is centegrate",c);
+    
+
+    return 0;
+}
